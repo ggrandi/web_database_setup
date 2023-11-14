@@ -1,0 +1,4 @@
+imdb_full_wdt.sql
+db-data/
+pgadmin-data/
+.env.local

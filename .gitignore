@@ -2,3 +2,4 @@ imdb_full_wdt.sql
 db-data/
 pgadmin-data/
 .env.local
+imdb_fixed_full_wdt.sql

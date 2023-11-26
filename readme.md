@@ -10,12 +10,12 @@ I will assume they are already installed
 cp .env.example .env.local
 # fill in the missing values
 
-sudo mkdir pg-admin-data
-sudo mkdir db-data
-
-sudo chmod a+rwx ./db-data/ ./pgadmin-data/
-
 docker-compose up
+
+sudo mkdir ./pgadmin-data/sessions/
+sudo mkdir ./pgadmin-data/storage/
+sudo mkdir ./pgadmin-data/azurecredentialcache/
+sudo chmod a+rwx ./db-data/ ./pgadmin-data/ ./pgadmin-data/*
 ```
 
 ## Connecting in PGAdmin
